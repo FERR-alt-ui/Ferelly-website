@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-label="Peta Kawasan Jabodetabek">
+  <defs>
+    <linearGradient id="laut" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0c2138"/>
+      <stop offset="1" stop-color="#123a5c"/>
+    </linearGradient>
+    <linearGradient id="daratan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2fa268"/>
+      <stop offset="0.45" stop-color="#268450"/>
+      <stop offset="1" stop-color="#154c34"/>
+    </linearGradient>
+    <linearGradient id="rute" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="rgba(148,163,184,0.10)" stroke-width="1"/>
+    </pattern>
+    <filter id="lembut" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="520" fill="url(#laut)"/>
+  <rect width="800" height="520" fill="url(#grid)"/>
+
+  <circle cx="400" cy="240" r="270" fill="url(#glow)" opacity="0.55"/>
+  <circle cx="452" cy="335" r="120" fill="url(#glow)" opacity="0.35"/>
+
+  <text x="30" y="46" font-family="Plus Jakarta Sans, Segoe UI, sans-serif" font-size="17" font-weight="800" letter-spacing="5" fill="#5eead4">JABODETABEK</text>
+  <text x="30" y="66" font-family="Plus Jakarta Sans, Segoe UI, sans-serif" font-size="10.5" font-weight="600" letter-spacing="2.5" fill="#8fb8d6" opacity="0.85">PETA RUTE KERJA HARIAN</text>
+  <text x="30" y="96" font-family="Plus Jakarta Sans, Segoe UI, sans-serif" font-size="10" font-weight="600" letter-spacing="3" fill="#5eead4" opacity="0.7">LAUT JAWA</text>
+
+  <g class="kompas" transform="translate(758 66)" opacity="0.85">
+    <circle cx="0" cy="0" r="17" fill="rgba(34,211,238,0.08)" stroke="rgba(148,163,184,0.35)"/>
+    <path d="M0 -12 L4.5 4.5 L0 1.5 L-4.5 4.5 Z" fill="#22d3ee"/>
+    <path d="M0 12 L4.5 -4.5 L0 -1.5 L-4.5 -4.5 Z" fill="#64748b"/>
+    <text y="-24" text-anchor="middle" font-family="Plus Jakarta Sans, Segoe UI, sans-serif" font-size="10" fill="#93a9c2">U</text>
+  </g>
+
+  <path d="M215 212 C 300 158, 640 168, 715 268 C 732 340, 628 468, 500 458 C 358 448, 214 348, 215 212 Z" fill="none" stroke="#22d3ee" stroke-width="5" opacity="0.16" filter="url(#lembut)"/>
+  <path d="M215 212 C 300 158, 640 168, 715 268 C 732 340, 628 468, 500 458 C 358 448, 214 348, 215 212 Z" fill="rgba(34,211,238,0.05)" stroke="#22d3ee" stroke-opacity="0.4" stroke-width="1.6" stroke-dasharray="6 10" stroke-linejoin="round"/>
+
+  <path d="M15 168 C 80 160, 150 154, 220 150 C 260 148, 290 142, 312 144 C 335 146, 348 160, 370 172 C 392 182, 414 182, 436 172 C 458 162, 468 144, 494 140 C 540 134, 620 130, 700 132 C 745 133, 772 142, 785 158 L 785 520 L 15 520 Z" fill="url(#daratan)" stroke="#1a5a38" stroke-width="2"/>
+
+  <path d="M15 168 C 80 160, 150 154, 220 150 C 260 148, 290 142, 312 144 C 335 146, 348 160, 370 172 C 392 182, 414 182, 436 172 C 458 162, 468 144, 494 140 C 540 134, 620 130, 700 132 C 745 133, 772 142, 785 158 Z" fill="none" stroke="#5eead4" stroke-width="1.2" opacity="0.5"/>
+  <text x="392" y="170" text-anchor="middle" font-family="Plus Jakarta Sans, Segoe UI, sans-serif" font-size="9.5" font-weight="600" fill="#9fc4dd" opacity="0.75">Teluk Jakarta</text>
+
+  <ellipse cx="500" cy="482" rx="76" ry="46" fill="rgba(18,70,42,0.4)"/>
+  <path d="M428 472 C 424 430, 556 422, 574 470 C 588 514, 466 544, 428 472 Z" fill="none" stroke="rgba(52,211,153,0.32)" stroke-width="1.5"/>
+  <path d="M452 474 C 450 444, 534 438, 548 472 C 560 508, 482 528, 452 474 Z" fill="none" stroke="rgba(52,211,153,0.26)" stroke-width="1.2"/>
+  <path d="M472 476 C 470 458, 516 452, 524 474 C 532 496, 486 512, 472 476 Z" fill="none" stroke="rgba(52,211,153,0.2)" stroke-width="1"/>
+  <text x="500" y="516" text-anchor="middle" font-family="Plus Jakarta Sans, Segoe UI, sans-serif" font-size="9" font-weight="600" letter-spacing="2" fill="#6fd8a5" opacity="0.6">DATARAN TINGGI BOGOR</text>
+
+  <g class="jalan" opacity="0.95">
+    <path d="M400 200 L452 335 L485 448" fill="none" stroke="rgba(2,8,20,0.55)" stroke-width="7" stroke-linecap="round"/>
+    <path d="M400 200 L215 212" fill="none" stroke="rgba(2,8,20,0.55)" stroke-width="7" stroke-linecap="round"/>
+    <path d="M400 200 L612 208 L705 268" fill="none" stroke="rgba(2,8,20,0.55)" stroke-width="7" stroke-linecap="round"/>
+    <path d="M215 212 C 240 265, 268 292, 305 305 C 365 332, 420 342, 452 335 C 500 310, 565 255, 612 208" fill="none" stroke="rgba(2,8,20,0.55)" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g class="jalan" opacity="0.9">
+    <path d="M400 200 L452 335 L485 448" fill="none" stroke="rgba(148,163,184,0.5)" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M400 200 L215 212" fill="none" stroke="rgba(148,163,184,0.5)" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M400 200 L612 208 L705 268" fill="none" stroke="rgba(148,163,184,0.5)" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M215 212 C 240 265, 268 292, 305 305 C 365 332, 420 342, 452 335 C 500 310, 565 255, 612 208" fill="none" stroke="rgba(148,163,184,0.5)" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <path class="jawa-route-glow" d="M452 335 L400 200 L215 212 C 240 265, 268 292, 305 305 L452 335 C 500 310, 565 255, 612 208 L400 200 L452 335" fill="none" stroke="#22d3ee" stroke-width="9" opacity="0.18" filter="url(#lembut)"/>
+  <path class="jawa-route" d="M452 335 L400 200 L215 212 C 240 265, 268 292, 305 305 L452 335 C 500 310, 565 255, 612 208 L400 200 L452 335" fill="none" stroke="url(#rute)" stroke-width="3.2" stroke-dasharray="3 11" stroke-linecap="round"/>
+
+  <g class="jawa-city" data-kota="Jakarta">
+    <circle cx="400" cy="200" r="24" fill="url(#glow)"/>
+    <circle class="ring" cx="400" cy="200" r="6" fill="none" stroke="#22d3ee" stroke-width="1.6">
+      <animate attributeName="r" values="5;26" dur="2.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.85;0" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle class="jawa-dot" cx="400" cy="200" r="6" fill="#22d3ee" stroke="#eaf2fb" stroke-width="1.8"/>
+    <text class="jawa-label" x="416" y="204" font-family="Plus Jakarta Sans, Segoe UI, sans-serif" font-size="12" font-weight="700" fill="#eaf2fb">Jakarta</text>
+    <text class="jawa-sub" x="416" y="219" font-family="Plus Jakarta Sans, Segoe UI, sans-serif" font-size="9" font-weight="600" fill="#8fa8c2">Kantor &amp; meeting</text>
+  </g>
+
+  <g class="jawa-city" data-kota="Tangerang">
+    <circle cx="215" cy="212" r="20" fill="url(#glow)"/>
+    <circle class="ring" cx="215" cy="212" r="6" fill="none" stroke="#34d399" stroke-width="1.6">
+      <animate attributeName="r" values="5;22" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;0" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle class="jawa-dot" cx="215" cy="212" r="5" fill="#34d399" stroke="#eaf2fb" stroke-width="1.6"/>
+    <text class="jawa-label" x="215" y="196" text-anchor="middle" font-family="Plus Jakarta Sans, Segoe UI, sans-serif" font-size="11.5" font-weight="700" fill="#eaf2fb">Tangerang</text>
+    <text class="jawa-sub" x="215" y="236" text-anchor="middle" font-family="Plus Jakarta Sans, Segoe UI, sans-serif" font-size="9" font-weight="600" fill="#8fa8c2">Klien &amp; studio</text>
+  </g>
+
+  <g class="jawa-city" data-kota="Tangerang Selatan">
+    <circle cx="305" cy="305" r="18" fill="url(#glow)"/>
+    <circle class="jawa-dot" cx="305" cy="305" r="4" fill="#34d399" stroke="#eaf2fb" stroke-width="1.4"/>
+    <text class="jawa-label" x="305" y="330" text-anchor="middle" font-family="Plus Jakarta Sans, Segoe UI, sans-serif" font-size="10.5" font-weight="700" fill="#d7ecff">Tangerang Selatan</text>
+    <text class="jawa-sub" x="305" y="345" text-anchor="middle" font-family="Plus Jakarta Sans, Segoe UI, sans-serif" font-size="9" font-weight="600" fill="#8fa8c2">Kantor cabang</text>
+  </g>
+
+  <g class="jawa-city" data-kota="Bekasi">
+    <circle cx="612" cy="208" r="20" fill="url(#glow)"/>
+    <circle class="ring" cx="612" cy="208" r="6" fill="none" stroke="#34d399" stroke-width="1.6">
+      <animate attributeName="r" values="5;22" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;0" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle class="jawa-dot" cx="612" cy="208" r="5" fill="#34d399" stroke="#eaf2fb" stroke-width="1.6"/>
+    <text class="jawa-label" x="612" y="192" text-anchor="middle" font-family="Plus Jakarta Sans, Segoe UI, sans-serif" font-size="11.5" font-weight="700" fill="#eaf2fb">Bekasi</text>
+    <text class="jawa-sub" x="612" y="232" text-anchor="middle" font-family="Plus Jakarta Sans, Segoe UI, sans-serif" font-size="9" font-weight="600" fill="#8fa8c2">Gudang &amp; produksi</text>
+  </g>
+
+  <g class="jawa-city" data-kota="Karawang">
+    <circle cx="705" cy="268" r="18" fill="url(#glow)"/>
+    <circle class="jawa-dot" cx="705" cy="268" r="4" fill="#34d399" stroke="#eaf2fb" stroke-width="1.4"/>
+    <text class="jawa-label" x="705" y="292" text-anchor="middle" font-family="Plus Jakarta Sans, Segoe UI, sans-serif" font-size="10.5" font-weight="700" fill="#d7ecff">Karawang</text>
+    <text class="jawa-sub" x="705" y="307" text-anchor="middle" font-family="Plus Jakarta Sans, Segoe UI, sans-serif" font-size="9" font-weight="600" fill="#8fa8c2">Kawasan industri</text>
+  </g>
+
+  <g class="jawa-city" data-kota="Depok">
+    <circle cx="452" cy="335" r="24" fill="url(#glow)"/>
+    <circle class="ring" cx="452" cy="335" r="6" fill="none" stroke="#fbbf24" stroke-width="1.8">
+      <animate attributeName="r" values="5;26" dur="2.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.85;0" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle class="jawa-dot" cx="452" cy="335" r="6.5" fill="#fbbf24" stroke="#eaf2fb" stroke-width="1.8"/>
+    <text class="jawa-label" x="434" y="330" text-anchor="end" font-family="Plus Jakarta Sans, Segoe UI, sans-serif" font-size="12" font-weight="700" fill="#eaf2fb">Depok</text>
+    <text class="jawa-sub" x="434" y="346" text-anchor="end" font-family="Plus Jakarta Sans, Segoe UI, sans-serif" font-size="9" font-weight="600" fill="#f5c569">Rumah &amp; markas</text>
+  </g>
+
+  <g class="jawa-city" data-kota="Bogor">
+    <circle cx="485" cy="448" r="20" fill="url(#glow)"/>
+    <circle class="ring" cx="485" cy="448" r="6" fill="none" stroke="#34d399" stroke-width="1.6">
+      <animate attributeName="r" values="5;22" dur="3.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;0" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle class="jawa-dot" cx="485" cy="448" r="5" fill="#34d399" stroke="#eaf2fb" stroke-width="1.6"/>
+    <text class="jawa-label" x="485" y="472" text-anchor="middle" font-family="Plus Jakarta Sans, Segoe UI, sans-serif" font-size="11.5" font-weight="700" fill="#eaf2fb">Bogor</text>
+    <text class="jawa-sub" x="485" y="488" text-anchor="middle" font-family="Plus Jakarta Sans, Segoe UI, sans-serif" font-size="9" font-weight="600" fill="#8fa8c2">Meeting pelanggan</text>
+  </g>
+</svg>
